@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jip P. — Systematic Futures Research</title>
+    <meta name="description" content="Quantitative researcher, firm owner and portfolio manager. NQ / ES on CME. Walk-forward validated strategies, statistical audits, GBM metalabeling.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- background orbs (parallax via JS) -->
+    <div class="orb orb-1" aria-hidden="true"></div>
+    <div class="orb orb-2" aria-hidden="true"></div>
+    <div class="orb orb-3" aria-hidden="true"></div>
+
+    <div class="page">
+
+        <!-- ═══════════════════════════════════════════════════════
+             HERO
+             ═══════════════════════════════════════════════════════ -->
+        <section class="hero">
+            <h1 class="hero-name"><span>Jip P.</span></h1>
+            <p class="hero-role">Quantitative Researcher &nbsp;·&nbsp; Firm Owner &nbsp;·&nbsp; Portfolio Manager</p>
+            <p class="hero-meta">NQ &nbsp;/&nbsp; ES &nbsp;·&nbsp; CME e-mini futures &nbsp;·&nbsp; Amsterdam &nbsp;·&nbsp; UTC+1</p>
+
+            <div class="hero-tags">
+                <span class="hero-tag">ML &amp; Deep Learning</span>
+                <span class="hero-tag">LLMs &amp; NNs</span>
+                <span class="hero-tag">Walk-forward validation</span>
+                <span class="hero-tag">Statistical audit frameworks</span>
+                <span class="hero-tag">Metalabeling</span>
+                <span class="hero-tag">Regime detection</span>
+                <span class="hero-tag">Quantitative Finance</span>
+                <span class="hero-tag">Backtesting</span>
+                <span class="hero-tag">Python</span>
+                <span class="hero-tag">Data Science</span>
+                <span class="hero-tag">Futures Trading</span>
+                <span class="hero-tag">Portfolio Management</span>
+                <span class="hero-tag">Entrepreneurship</span>
+                <span class="hero-tag">Research &amp; Development</span>
+            </div>
+
+            <div class="scroll-cue" aria-label="Scroll to research">scroll</div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ═══════════════════════════════════════════════════════
+             RESEARCH
+             ═══════════════════════════════════════════════════════ -->
+        <section class="section-wrap" id="research">
+            <p class="section-label">Research</p>
+            <h2 class="section-title">Projects &amp; Audits</h2>
+            <p class="section-sub">
+                All strategies walk-forward validated with embargo gaps.
+                Politis–Romano bootstrap &nbsp;·&nbsp; Benjamini–Hochberg FDR (q&nbsp;=&nbsp;0.05).
+            </p>
+
+            <div class="cards">
+
+                <!-- HMT γ — FEATURED -->
+                <div class="card card-featured">
+                    <div class="card-header">
+                        <span class="card-name">HMT &gamma; Research Archive</span>
+                        <div class="badges">
+                            <span class="badge badge-featured">FEATURED</span>
+                            <span class="badge badge-archived">ARCHIVED</span>
+                        </div>
+                    </div>
+                    <p class="card-desc">
+                        Eight-test statistical audit of the rolling-OLS &gamma; coefficient
+                        as a predictive signal on NQ futures (2022–2025). Tests span
+                        predictive validity, KSG mutual information, walk-forward IC,
+                        metalabeling lift, and Politis–Romano permutation with BH-FDR correction.
+                    </p>
+                    <div class="card-stats">
+                        <div>verdict &emsp;<span class="val val-arch">NO_EVIDENCE</span></div>
+                        <div>tests &emsp;<span class="val">8 &nbsp;·&nbsp; 3 sprints &nbsp;·&nbsp; n_perm = 1 000</span></div>
+                        <div>period &emsp;<span class="val">2023-01 – 2025-12</span></div>
+                        <div>p_val &emsp;<span class="val val-arch">0.42 &nbsp;&gt;&nbsp; 0.05 (NS)</span></div>
+                    </div>
+                    <a class="card-link"
+                       href="https://github.com/jipputje-arch/hmt-research-archive"
+                       target="_blank" rel="noopener noreferrer">
+                        view archive on GitHub →
+                    </a>
+                </div>
+
+                <!-- S2 Engine — SUCCESS -->
+                <div class="card card-rainbow">
+                    <div class="card-header">
+                        <span class="card-name">S2 Engine</span>
+                        <div class="badges">
+                            <span class="badge badge-pass">SUCCESS</span>
+                        </div>
+                    </div>
+                    <p class="card-desc">
+                        Systematic NQ / ES futures strategy with GBM metalabeling filter.
+                        Confidence-scaled position sizing. Full walk-forward IS + OOS
+                        validation across 8 folds. Hypothesis survived BH-FDR correction.
+                    </p>
+                    <div class="card-stats">
+                        <div>OOS win rate &emsp;<span class="val val-pass">82.7 %</span></div>
+                        <div>phase &emsp;<span class="val">IS + OOS complete</span></div>
+                        <div>FDR &emsp;<span class="val val-pass">survives &nbsp;(q = 0.05)</span></div>
+                    </div>
+                </div>
+
+                <!-- VA Speedy — ARCHIVED -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="card-name">VA Speedy</span>
+                        <div class="badges">
+                            <span class="badge badge-archived">ARCHIVED</span>
+                        </div>
+                    </div>
+                    <p class="card-desc">
+                        Momentum strategy on NQ and ES across 5 m and 15 m timeframes.
+                        Cleared both IS and OOS validation but the edge was too thin
+                        to justify live deployment. Research formally concluded.
+                    </p>
+                    <div class="card-stats">
+                        <div>instruments &emsp;<span class="val">NQ &nbsp;·&nbsp; ES</span></div>
+                        <div>timeframes &emsp;<span class="val">5m &nbsp;·&nbsp; 15m</span></div>
+                        <div>phase &emsp;<span class="val">IS + OOS cleared</span></div>
+                        <div>verdict &emsp;<span class="val val-arch">edge insufficient</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ═══════════════════════════════════════════════════════
+             STACK
+             ═══════════════════════════════════════════════════════ -->
+        <section class="section-wrap" id="stack">
+            <p class="section-label">Stack</p>
+            <h2 class="section-title">Tools &amp; Expertise</h2>
+            <p class="section-sub">
+                Statistical tests implemented from primary references.
+                Research infrastructure built entirely in Python.
+            </p>
+            <div class="pills">
+                <span class="pill">Machine Learning</span>
+                <span class="pill">Deep Learning</span>
+                <span class="pill">LLMs</span>
+                <span class="pill">Neural Networks</span>
+                <span class="pill">Python</span>
+                <span class="pill">pandas</span>
+                <span class="pill">LightGBM</span>
+                <span class="pill">scikit-learn</span>
+                <span class="pill">Walk-forward validation</span>
+                <span class="pill">KSG MI estimator</span>
+                <span class="pill">Politis–Romano bootstrap</span>
+                <span class="pill">Benjamini–Hochberg FDR</span>
+                <span class="pill">Metalabeling</span>
+                <span class="pill">NinjaTrader</span>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- ═══════════════════════════════════════════════════════
+             CONTACT
+             ═══════════════════════════════════════════════════════ -->
+        <section class="section-wrap" id="contact">
+            <p class="section-label">Contact</p>
+            <h2 class="section-title">Get in touch</h2>
+            <p class="section-sub">Research questions, collaboration, or systematic trading.</p>
+            <div class="contact-row">
+
+                <a class="contact-link"
+                   href="https://github.com/jipputje-arch"
+                   target="_blank" rel="noopener noreferrer">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                        <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303
+                                 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577
+                                 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61
+                                 -4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7
+                                 c-1.087-.744.084-.729.084-.729 1.205.084
+                                 1.838 1.236 1.838 1.236 1.07 1.835 2.809
+                                 1.305 3.495.998.108-.776.417-1.305.76-1.605
+                                 -2.665-.3-5.466-1.332-5.466-5.93
+                                 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176
+                                 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405
+                                 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23
+                                 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84
+                                 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475
+                                 5.92.42.36.81 1.096.81 2.22 0 1.606-.015
+                                 2.896-.015 3.286 0 .315.21.69.825.57C20.565
+                                 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                    </svg>
+                    GitHub
+                </a>
+
+                <a class="contact-link" href="mailto:vdphealthproducts@gmail.com">
+                    <svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/>
+                        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                    </svg>
+                    Email
+                </a>
+
+            </div>
+        </section>
+
+    </div><!-- /page -->
+
+    <footer>
+        hypothesis-driven &nbsp;·&nbsp; walk-forward validated &nbsp;·&nbsp; statistically honest
+    </footer>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         MOUSE EFFECTS — cursor · particles · magnetic
+         ═══════════════════════════════════════════════════════════ -->
+    <script>
+    (function () {
+        'use strict';
+
+        /* skip everything on touch-only devices */
+        if (!window.matchMedia('(pointer: fine)').matches) return;
+
+        /* ── 1. Custom cursor ───────────────────────────────────────── */
+        const dot  = document.createElement('div'); dot.id  = 'cursor-dot';
+        const ring = document.createElement('div'); ring.id = 'cursor-ring';
+        document.body.append(dot, ring);
+
+        let mx = -200, my = -200;   /* raw mouse */
+        let rx = -200, ry = -200;   /* ring lerp */
+
+        document.addEventListener('mousemove', e => { mx = e.clientX; my = e.clientY; });
+
+        /* hover state enlarges ring and shrinks dot */
+        const hoverTargets = 'a, button, .hero-tag, .pill, .card-link, .contact-link';
+        document.querySelectorAll(hoverTargets).forEach(el => {
+            el.addEventListener('mouseenter', () => { dot.classList.add('hover');  ring.classList.add('hover'); });
+            el.addEventListener('mouseleave', () => { dot.classList.remove('hover'); ring.classList.remove('hover'); });
+        });
+
+        function tickCursor() {
+            /* dot: instant */
+            dot.style.transform = `translate(calc(${mx}px - 50%), calc(${my}px - 50%))`;
+            /* ring: smooth lerp */
+            rx += (mx - rx) * 0.10;
+            ry += (my - ry) * 0.10;
+            ring.style.transform = `translate(calc(${rx}px - 50%), calc(${ry}px - 50%))`;
+            requestAnimationFrame(tickCursor);
+        }
+        tickCursor();
+
+        /* ── 2. Particle trail ──────────────────────────────────────── */
+        let lastParticle = 0;
+
+        document.addEventListener('mousemove', e => {
+            const now = Date.now();
+            if (now - lastParticle < 38) return;   /* ~26 particles/s */
+            lastParticle = now;
+
+            const p = document.createElement('div');
+            p.className = 'particle';
+            const size = Math.random() * 4 + 2;    /* 2–6 px */
+            const hue  = Math.random() < 0.6 ? 0 : 210; /* mostly white, some blue */
+            p.style.cssText = `
+                width:${size}px; height:${size}px;
+                left:${e.clientX}px; top:${e.clientY}px;
+                background: hsla(${hue}, ${hue ? 80 : 0}%, 95%, 0.7);
+                animation-duration: ${Math.random() * 0.25 + 0.4}s;
+            `;
+            document.body.appendChild(p);
+            setTimeout(() => p.remove(), 700);
+        });
+
+        /* ── 3. Magnetic pull ───────────────────────────────────────── */
+        /* Applied to small interactive elements only — not cards (too large) */
+        const MAGNETIC = '.contact-link, .hero-tag';
+        const STRENGTH = 0.32;   /* 0 = no pull, 1 = cursor position */
+
+        document.querySelectorAll(MAGNETIC).forEach(el => {
+            let animating = false;
+            let tx = 0, ty = 0, cx = 0, cy = 0;
+
+            el.addEventListener('mouseenter', () => {
+                el.style.transition = 'color 0.2s, box-shadow 0.2s';
+                animating = true;
+                tick();
+            });
+
+            el.addEventListener('mousemove', e => {
+                const r = el.getBoundingClientRect();
+                const centerX = r.left + r.width  / 2;
+                const centerY = r.top  + r.height / 2;
+                tx = (e.clientX - centerX) * STRENGTH;
+                ty = (e.clientY - centerY) * STRENGTH;
+            });
+
+            el.addEventListener('mouseleave', () => {
+                tx = 0; ty = 0;
+                /* spring back */
+                el.style.transition = 'transform 0.55s cubic-bezier(0.23,1,0.32,1), color 0.2s, box-shadow 0.2s';
+                setTimeout(() => {
+                    animating = false;
+                    cx = 0; cy = 0;
+                    el.style.transform = '';
+                }, 550);
+            });
+
+            function tick() {
+                if (!animating) return;
+                cx += (tx - cx) * 0.14;
+                cy += (ty - cy) * 0.14;
+                el.style.transform = `translate(${cx.toFixed(2)}px, ${cy.toFixed(2)}px)`;
+                requestAnimationFrame(tick);
+            }
+        });
+
+    })();
+    </script>
+
+</body>
+</html>
