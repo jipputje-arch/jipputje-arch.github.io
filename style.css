@@ -111,7 +111,7 @@ body::before {
     content: '';
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.60);
+    background: rgba(0, 0, 0, 0.74);
     pointer-events: none;
     z-index: 1;
 }
@@ -259,7 +259,7 @@ body::before {
 }
 .section-sub {
     font-size: 0.845rem;
-    color: var(--text-muted);
+    color: var(--text);
     max-width: 500px;
     line-height: 1.8;
     margin-bottom: 2.5rem;
@@ -439,6 +439,13 @@ body::before {
     color: var(--text-hi);
     border-color: rgba(77,184,156,0.25);
     background: rgba(77,184,156,0.04);
+}
+
+/* discord button — same look as contact-link anchors */
+.discord-btn {
+    font-family: var(--sans);
+    cursor: pointer;
+    letter-spacing: inherit;
 }
 
 /* ── footer ──────────────────────────────────────────────────────────────── */
