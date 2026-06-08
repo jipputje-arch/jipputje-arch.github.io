@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jip P. — Systematic Futures Research</title>
-    <meta name="description" content="Quantitative researcher, firm owner and portfolio manager. NQ / ES on CME. Walk-forward validated strategies, statistical audits, GBM metalabeling.">
+    <meta name="description" content="Quantitative researcher, startup owner and data analyst. Systematic futures research, statistical audits, GBM metalabeling, ML and deep learning.">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Outfit:wght@300;400;500;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -24,24 +24,22 @@
              HERO
              ═══════════════════════════════════════════════════════ -->
         <section class="hero">
-            <h1 class="hero-name"><span>Jip P.</span></h1>
-            <p class="hero-role">Quantitative Researcher &nbsp;·&nbsp; Firm Owner &nbsp;·&nbsp; Portfolio Manager</p>
-            <p class="hero-meta">NQ &nbsp;/&nbsp; ES &nbsp;·&nbsp; CME e-mini futures &nbsp;·&nbsp; Amsterdam &nbsp;·&nbsp; UTC+1</p>
+            <h1 class="hero-name">Jip P.</h1>
+            <div class="hero-rule"></div>
+            <div class="hero-sub">
+                <p class="hero-role">Quantitative Researcher &nbsp;·&nbsp; Startup Owner &nbsp;·&nbsp; Data Analyst</p>
+                <p class="hero-meta">Amsterdam &nbsp;·&nbsp; UTC+1</p>
+            </div>
 
             <div class="hero-tags">
                 <span class="hero-tag">ML &amp; Deep Learning</span>
                 <span class="hero-tag">LLMs &amp; NNs</span>
                 <span class="hero-tag">Mathematics</span>
                 <span class="hero-tag">Statistical audit frameworks</span>
-                <span class="hero-tag">Metalabeling</span>
-                <span class="hero-tag">Regime detection</span>
+                <span class="hero-tag">Metafiltering / Metalabeling</span>
                 <span class="hero-tag">Quantitative Finance</span>
-                <span class="hero-tag">Backtesting</span>
                 <span class="hero-tag">Python</span>
                 <span class="hero-tag">Data Science</span>
-                <span class="hero-tag">Futures Trading</span>
-                <span class="hero-tag">Portfolio Management</span>
-                <span class="hero-tag">Entrepreneurship</span>
                 <span class="hero-tag">Research &amp; Development</span>
             </div>
 
@@ -218,6 +216,21 @@
     <footer>
         hypothesis-driven &nbsp;·&nbsp; walk-forward validated &nbsp;·&nbsp; statistically honest
     </footer>
+
+    <!-- ═══════════════════════════════════════════════════════════
+         SCROLL — background gradient shift
+         ═══════════════════════════════════════════════════════════ -->
+    <script>
+    (function () {
+        function onScroll() {
+            var max = document.body.scrollHeight - window.innerHeight;
+            var pct = max > 0 ? (window.scrollY / max) * 100 : 0;
+            document.body.style.backgroundPosition = pct + '% ' + pct + '%';
+        }
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+    })();
+    </script>
 
     <!-- ═══════════════════════════════════════════════════════════
          MOUSE EFFECTS — cursor · particles · magnetic
